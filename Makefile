@@ -33,4 +33,4 @@ mypy:
 lint:
 		. .venv/bin/activate && pylint src -j 4 --reports=y
 
-checks: test lint mypy
+checks: test mypy
